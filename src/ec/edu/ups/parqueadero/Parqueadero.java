@@ -1,6 +1,7 @@
 package ec.edu.ups.parqueadero;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.nio.file.Path;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -40,6 +41,41 @@ public final class Parqueadero {
         nuevas.add(nuevo);
         guardarCambios(nuevas);
         return nuevo;
+    }
+
+    public Cobro registrarSalida(String placa, LocalDateTime salida) throws IOException {
+        String normalizada = Vehiculo.normalizarPlaca(placa);
+        Objects.requireNonNull(salida, "Falta la fecha de salida.");
+        for (int i = 0; i < visitas.size(); i++) {
+            Vehiculo visita = visitas.get(i);
+            if (visita.estaDentro() && visita.getPlaca().equals(normalizada)) {
+                Vehiculo cerrada = visita.conSalida(salida);
+                Cobro cobro = new Cobro(cerrada, tarifa);
+                List<Vehiculo> nuevas = new ArrayList<>(visitas);
+                nuevas.set(i, cerrada);
+                guardarCambios(nuevas);
+                return cobro;
+            }
+        }
+        throw new IllegalArgumentException("No existe un vehículo activo con esa placa.");
+    }
+
+    public List<Cobro> listarCobros() {
+        List<Cobro> cobros = new ArrayList<>();
+        for (Vehiculo visita : visitas) {
+            if (!visita.estaDentro()) {
+                cobros.add(new Cobro(visita, tarifa));
+            }
+        }
+        return List.copyOf(cobros);
+    }
+
+    public BigDecimal consultarTotalCaja() {
+        BigDecimal total = new BigDecimal("0.00");
+        for (Cobro cobro : listarCobros()) {
+            total = total.add(cobro.getTotal());
+        }
+        return total;
     }
 
     public List<Vehiculo> listarActivos() {
