@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="487" height="445" preserveAspectRatio="xMinYMin meet" viewBox="0 0 487 445" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="487" height="445"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-445)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="5" y="355" width="193" height="72" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="5" y="402" width="193" height="25" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,19%,29%); fill-rule: evenodd;"/>
+			<text x="90.11" y="410" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,820) scale(1,-1)">Main</text>
+			<path d="M 5,392 L 198,392 Z" style="stroke: rgb(83%,87%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="13" y="377" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,754) scale(1,-1)">+ main(String[]): void</text>
+			<rect x="250" y="305" width="223" height="137" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="250" y="417" width="223" height="25" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,19%,29%); fill-rule: evenodd;"/>
+			<text x="330.935" y="425" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,850) scale(1,-1)">Parqueadero</text>
+			<text x="258" y="402" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,804) scale(1,-1)">- visitas: List&lt;Vehiculo&gt;</text>
+			<text x="258" y="389" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,778) scale(1,-1)">- archivos: ArchivoParqueadero</text>
+			<text x="258" y="376" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,752) scale(1,-1)">- tarifa: Tarifa</text>
+			<path d="M 250,368 L 473,368 Z" style="stroke: rgb(83%,87%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="258" y="353" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,706) scale(1,-1)">+ registrarEntrada(...): Vehiculo</text>
+			<text x="258" y="340" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,680) scale(1,-1)">+ registrarSalida(...): Cobro</text>
+			<text x="258" y="327" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,654) scale(1,-1)">+ consultarTotalCaja(): BigDecimal</text>
+			<rect x="5" y="160" width="193" height="159" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="5" y="294" width="193" height="25" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,19%,29%); fill-rule: evenodd;"/>
+			<text x="80.66" y="302" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,604) scale(1,-1)">Vehiculo</text>
+			<text x="13" y="279" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,558) scale(1,-1)">- id: long</text>
+			<text x="13" y="266" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,532) scale(1,-1)">- placa: String</text>
+			<text x="13" y="253" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,506) scale(1,-1)">- entrada: LocalDateTime</text>
+			<text x="13" y="240" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,480) scale(1,-1)">- salida: LocalDateTime</text>
+			<path d="M 5,232 L 198,232 Z" style="stroke: rgb(83%,87%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="13" y="217" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,434) scale(1,-1)">+ normalizarPlaca(String): String</text>
+			<text x="13" y="204" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,408) scale(1,-1)">+ estaDentro(): boolean</text>
+			<text x="13" y="191" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,382) scale(1,-1)">+ conSalida(...): Vehiculo</text>
+			<rect x="250" y="153" width="223" height="112" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="250" y="240" width="223" height="25" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,19%,29%); fill-rule: evenodd;"/>
+			<text x="312.32" y="248" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,496) scale(1,-1)">ArchivoParqueadero</text>
+			<text x="258" y="225" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,450) scale(1,-1)">- directorio: Path</text>
+			<path d="M 250,217 L 473,217 Z" style="stroke: rgb(83%,87%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="258" y="202" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,404) scale(1,-1)">+ cargarVehiculos(): List&lt;Vehiculo&gt;</text>
+			<text x="258" y="189" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,378) scale(1,-1)">+ guardarVehiculos(...): void</text>
+			<text x="258" y="176" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,352) scale(1,-1)">+ guardarCaja(...): void</text>
+			<rect x="5" y="5" width="193" height="121" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="5" y="101" width="193" height="25" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,19%,29%); fill-rule: evenodd;"/>
+			<text x="86.78" y="109" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,218) scale(1,-1)">Cobro</text>
+			<text x="13" y="86" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,172) scale(1,-1)">- vehiculo: Vehiculo</text>
+			<text x="13" y="73" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,146) scale(1,-1)">- horasCobradas: long</text>
+			<text x="13" y="60" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,120) scale(1,-1)">- total: BigDecimal</text>
+			<path d="M 5,52 L 198,52 Z" style="stroke: rgb(83%,87%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="13" y="37" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,74) scale(1,-1)">+ getTotal(): BigDecimal</text>
+			<rect x="250" y="5" width="223" height="112" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="250" y="92" width="223" height="25" style="stroke: rgb(8%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,19%,29%); fill-rule: evenodd;"/>
+			<text x="347.885" y="100" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,200) scale(1,-1)">Tarifa</text>
+			<text x="258" y="77" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,154) scale(1,-1)">+ PRECIO_HORA: BigDecimal</text>
+			<path d="M 250,69 L 473,69 Z" style="stroke: rgb(83%,87%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="258" y="54" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,108) scale(1,-1)">+ calcularHoras(...): long</text>
+			<text x="258" y="41" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(8%,19%,29%); stroke:none;" transform="translate(0,82) scale(1,-1)">+ calcularTotal(...): BigDecimal</text>
+			<polyline points="198 389, 250 389" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 3;"/>
+			<path d="M 250,389 L 245.565025,391.308896 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 250,389 L 245.565025,386.691104 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="209" y="398" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,796) scale(1,-1)">usa</text>
+			<polyline points="250 328, 225 328, 225 274, 198 274" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<path d="M 198,274 L 202.434975,271.691104 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 198,274 L 202.434975,276.308896 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="200" y="282" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,564) scale(1,-1)">0..*</text>
+			<text x="230" y="335" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,670) scale(1,-1)">1</text>
+			<polyline points="362 305, 362 265" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<path d="M 362,265 L 364.308896,269.434975 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 362,265 L 359.691104,269.434975 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="369" y="282" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,564) scale(1,-1)">1</text>
+			<polyline points="250 208, 198 208" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 3;"/>
+			<path d="M 198,208 L 202.434975,205.691104 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 198,208 L 202.434975,210.308896 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="203" y="216" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,432) scale(1,-1)">lee</text>
+			<polyline points="101 126, 101 160" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<path d="M 101,160 L 98.691104,155.565025 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 101,160 L 103.308896,155.565025 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="109" y="138" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,276) scale(1,-1)">1</text>
+			<polyline points="198 58, 250 58" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 3;"/>
+			<path d="M 250,58 L 245.565025,60.308896 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 250,58 L 245.565025,55.691104 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="204" y="67" style="font-family: Helvetica; font-size: 7px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,134) scale(1,-1)">calcula</text>
+			<polyline points="473 330, 485 330, 485 60, 473 60" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 3;"/>
+			<path d="M 473,60 L 477.434975,57.691104 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 473,60 L 477.434975,62.308896 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1;"/>
+		</g>
+	</g>
+</svg>

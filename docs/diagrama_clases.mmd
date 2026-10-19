@@ -1,0 +1,48 @@
+classDiagram
+direction TB
+class Main {
+  +main(String[] args) void
+}
+class Parqueadero {
+  -List~Vehiculo~ visitas
+  -ArchivoParqueadero archivos
+  -Tarifa tarifa
+  +registrarEntrada(String, LocalDateTime) Vehiculo
+  +registrarSalida(String, LocalDateTime) Cobro
+  +listarActivos() List~Vehiculo~
+  +consultarTotalCaja() BigDecimal
+}
+class Vehiculo {
+  -long id
+  -String placa
+  -LocalDateTime entrada
+  -LocalDateTime salida
+  +normalizarPlaca(String) String
+  +estaDentro() boolean
+  +conSalida(LocalDateTime) Vehiculo
+}
+class Tarifa {
+  +BigDecimal PRECIO_HORA
+  +calcularHoras(LocalDateTime, LocalDateTime) long
+  +calcularTotal(LocalDateTime, LocalDateTime) BigDecimal
+}
+class Cobro {
+  -Vehiculo vehiculo
+  -long horasCobradas
+  -BigDecimal total
+  +getTotal() BigDecimal
+}
+class ArchivoParqueadero {
+  -Path directorio
+  +cargarVehiculos() List~Vehiculo~
+  +guardarVehiculos(List~Vehiculo~) void
+  +guardarCaja(List~Vehiculo~, Tarifa) void
+}
+Main ..> Parqueadero : usa
+Parqueadero "1" o-- "0..*" Vehiculo : historial
+Parqueadero "1" *-- "1" ArchivoParqueadero
+Parqueadero "1" *-- "1" Tarifa
+Parqueadero ..> Cobro : devuelve
+Cobro --> "1" Vehiculo
+Cobro ..> Tarifa
+ArchivoParqueadero ..> Vehiculo
