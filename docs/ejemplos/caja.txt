@@ -1,0 +1,2 @@
+id;placa;entrada;salida;horas_cobradas;total_usd
+1;ABC1234;2026-10-18T08:00;2026-10-18T09:01;2;1.00

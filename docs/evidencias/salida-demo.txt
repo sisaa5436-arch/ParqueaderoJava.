@@ -1,0 +1,67 @@
+PARQUEADERO - DEBER 1
+Tarifa: USD 0.50 por hora o fracción.
+Archivos: /tmp/consola-parqueadero-irkem38v
+
+1. Registrar entrada
+2. Registrar salida
+3. Ver vehículos dentro
+4. Consultar caja
+5. Ver historial
+0. Salir
+Opción: Placa: Entrada (aaaa-MM-dd HH:mm:ss; Enter = ahora): ENTRADA REGISTRADA | ID 1 | ABC1234 | 2026-10-18 08:00:00
+
+1. Registrar entrada
+2. Registrar salida
+3. Ver vehículos dentro
+4. Consultar caja
+5. Ver historial
+0. Salir
+Opción: Placa: Entrada (aaaa-MM-dd HH:mm:ss; Enter = ahora): ENTRADA REGISTRADA | ID 2 | XYZ5678 | 2026-10-18 09:00:00
+
+1. Registrar entrada
+2. Registrar salida
+3. Ver vehículos dentro
+4. Consultar caja
+5. Ver historial
+0. Salir
+Opción: ID 1 | ABC1234 | Entrada: 2026-10-18 08:00:00 | Salida: DENTRO
+ID 2 | XYZ5678 | Entrada: 2026-10-18 09:00:00 | Salida: DENTRO
+
+1. Registrar entrada
+2. Registrar salida
+3. Ver vehículos dentro
+4. Consultar caja
+5. Ver historial
+0. Salir
+Opción: Placa: Salida (aaaa-MM-dd HH:mm:ss; Enter = ahora): COMPROBANTE | ID 1 | ABC1234
+Entrada: 2026-10-18 08:00:00
+Salida:  2026-10-18 09:01:00
+Horas cobradas: 2
+TOTAL A PAGAR: USD 1.00
+
+1. Registrar entrada
+2. Registrar salida
+3. Ver vehículos dentro
+4. Consultar caja
+5. Ver historial
+0. Salir
+Opción: ID 1 | ABC1234 | 2 hora(s) | USD 1.00
+Cobros registrados: 1
+TOTAL CAJA: USD 1.00
+
+1. Registrar entrada
+2. Registrar salida
+3. Ver vehículos dentro
+4. Consultar caja
+5. Ver historial
+0. Salir
+Opción: ID 1 | ABC1234 | Entrada: 2026-10-18 08:00:00 | Salida: 2026-10-18 09:01:00
+ID 2 | XYZ5678 | Entrada: 2026-10-18 09:00:00 | Salida: DENTRO
+
+1. Registrar entrada
+2. Registrar salida
+3. Ver vehículos dentro
+4. Consultar caja
+5. Ver historial
+0. Salir
+Opción: Programa finalizado. Los registros permanecen guardados.

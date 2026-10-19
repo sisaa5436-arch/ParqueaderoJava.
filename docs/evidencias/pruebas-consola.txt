@@ -1,0 +1,8 @@
+[OK] U01 Entrada, listado, salida de 61 minutos y total de caja.
+[OK] U02 Reinicio real del proceso: conserva el vehículo activo y USD 1.00.
+[OK] U03 Opción no numérica y fecha imposible: errores controlados.
+[OK] U04 Enter en la fecha usa la hora actual.
+[OK] U05 Fin de entrada a mitad de registro: cancela sin guardar.
+[OK] U06 Duplicado, salida desconocida y fecha anterior: caja inalterada.
+[OK] U07 Archivo inválido: se detiene con diagnóstico, código de salida 1.
+RESULTADO: 7/7 pruebas de consola aprobadas.

@@ -1,0 +1,12 @@
+PRUEBAS PARQUEADERO | Java 17.0.20
+[OK] T01 Duración cero = USD 0.00
+[OK] T02 Un segundo = USD 0.50
+[OK] T03 59 min 59 s = USD 0.50
+[OK] T04 Una hora exacta = USD 0.50
+[OK] T05 Una hora y un segundo = USD 1.00
+[OK] T06 Dos horas exactas = USD 1.00
+[OK] T07 24 horas = USD 12.00
+[OK] T08 Cruce de medianoche = USD 0.50
+[OK] T09 Fracción de nanosegundo inicia hora
+[OK] T10 Rechaza duración negativa
+[OK] T11 Normaliza placa y rechaza símbolos
