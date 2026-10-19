@@ -1,0 +1,6 @@
+/bin/
+*.class
+/vehiculos.txt
+/caja.txt
+/.metadata/
+*.tmp
